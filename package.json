@@ -1,0 +1,27 @@
+{
+  "name": "backend-zero",
+  "version": "1.0.0",
+  "description": "learning about the begging backend developer ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiendk195/backend.git"
+  },
+  "keywords": [
+    "nodejs",
+    "react"
+  ],
+  "author": "MT-Coder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiendk195/backend/issues"
+  },
+  "homepage": "https://github.com/tiendk195/backend#readme",
+  "dependencies": {
+    "express": "4.18.2"
+  }
+}

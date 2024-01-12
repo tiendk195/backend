@@ -3,6 +3,9 @@ const express = require("express");
 const app = express();
 const port = process.env.PORT || 8081;
 const hostname = process.env.HOST_NAME;
+const path = require("path");
+app.use(express.static(path.join(__dirname, "./src/")));
+
 app.get("/", (req, res) => {
   res.send(`Tien Coder`);
 });
